@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?><_ROOT_ EMVERSION="15.2" ORIENTATION="HORIZONTAL">
+<Workspace>
+<NODES>
+<NODE CLASS="SASHELP.EMUTIL.CONTROLPOINT.CLASS" COMPONENT="ControlPoint" ID="CNTRL" X="707" Y="262" DESCRIPTION="Control Point" DIAGRAMID="_ROOT_" PARENTID="">
+<PROPERTIES/>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus" X="1551" Y="126" DESCRIPTION="Cluster (k=2)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="2" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="PRINCOMP" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="AVGPURCHCOST" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="EduInt" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Educ" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Canned" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Dayswus" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Drinks" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Freq" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Fresh" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Frozen" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Kidhome" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Pastry" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Perdeal" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_REP_Age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Income" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Monetary" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Recency" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Teenhome" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_WebPurchase" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_WebVisit" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IceCreamMachine" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Income" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="LemonCookies" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonCanned" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonDrinks" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonFresh" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonFrozen" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonPastry" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Monetary" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="PARTMONETARY" AttributeName="USE" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus2" X="1550" Y="213" DESCRIPTION="Cluster (k=3)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="3" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="PRINCOMP" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="AVGPURCHCOST" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="EduInt" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Educ" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Canned" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Dayswus" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Drinks" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Freq" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Fresh" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Frozen" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Kidhome" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Pastry" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Perdeal" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_REP_Age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Income" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Monetary" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Recency" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Teenhome" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_WebPurchase" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_WebVisit" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IceCreamMachine" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Income" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="LemonCookies" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonCanned" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonDrinks" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonFresh" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonFrozen" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonPastry" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Monetary" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="PARTMONETARY" AttributeName="USE" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus3" X="1551" Y="293" DESCRIPTION="Cluster (k=4)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="4" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="PRINCOMP" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="AVGPURCHCOST" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="EduInt" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Educ" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Canned" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Dayswus" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Drinks" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Freq" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Fresh" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Frozen" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Kidhome" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Pastry" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Perdeal" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_REP_Age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Income" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Monetary" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Recency" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Teenhome" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_WebPurchase" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_WebVisit" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IceCreamMachine" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Income" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="LemonCookies" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonCanned" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonDrinks" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonFresh" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonFrozen" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonPastry" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Monetary" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="PARTMONETARY" AttributeName="USE" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus4" X="1547" Y="382" DESCRIPTION="Cluster (k=5)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="5" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="PRINCOMP" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="AVGPURCHCOST" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="EduInt" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Educ" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Canned" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Dayswus" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Drinks" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Freq" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Fresh" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Frozen" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Kidhome" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Pastry" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Perdeal" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_REP_Age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Income" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Monetary" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Recency" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Teenhome" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_WebPurchase" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_WebVisit" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IceCreamMachine" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Income" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="LemonCookies" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonCanned" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonDrinks" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonFresh" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonFrozen" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonPastry" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Monetary" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="PARTMONETARY" AttributeName="USE" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus5" X="1546" Y="461" DESCRIPTION="Cluster (k=6)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="6" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="PRINCOMP" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="AVGPURCHCOST" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="EduInt" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Educ" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Canned" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Dayswus" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Drinks" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Freq" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Fresh" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Frozen" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Kidhome" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Pastry" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Perdeal" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_REP_Age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Income" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Monetary" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Recency" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Teenhome" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_WebPurchase" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_WebVisit" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IceCreamMachine" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Income" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="LemonCookies" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonCanned" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonDrinks" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonFresh" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonFrozen" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonPastry" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Monetary" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="PARTMONETARY" AttributeName="USE" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.CLUSTER.CLASS" COMPONENT="Cluster" ID="Clus6" X="1544" Y="531" DESCRIPTION="Cluster (k=7)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Clus">
+<PROPERTIES Bins="100" Clusvar="_SEGMENT_" ClusvarLabel="Segment Variable" ClusvarRole="SEGMENT" MaxC="7" NominalEncoding="GLM" OrdinalEncoding="RANK" MissingInterval="DEFAULT" MissingNominal="DEFAULT" MissingOrdinal="DEFAULT" ImputationMethod="NONE" HideVariable="Y" TrainDefaults="Y" Learn="." LearnInitial="0.5" LearnFinal="0.02" LearnSteps="1000" MaxIter="10" MaxSteps="1200" XConv="0.0001" Initial="PRINCOMP" Drift="N" Radius="0" Stdize="STD" Summary="N" TreeProfile="Y" ClusterGraphs="Y" NumberClusterMethod="USER" DistancePlot="Y" FinalMaxNum="20" AutomaticMaxNum="50" AutomaticMinNum="2" AutomaticMethod="WARD" CCCCutOff="3" ForceRun="N" RunAction="Train" Component="Cluster">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="AVGPURCHCOST" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="EduInt" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Educ" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Canned" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Dayswus" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Drinks" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Freq" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Fresh" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Frozen" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Kidhome" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Pastry" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_Perdeal" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IMP_REP_Age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Income" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Monetary" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Recency" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Teenhome" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_WebPurchase" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_WebVisit" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IceCreamMachine" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Income" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="LemonCookies" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonCanned" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonDrinks" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonFresh" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonFrozen" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="MonPastry" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="Monetary" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="PARTMONETARY" AttributeName="USE" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="FileImport" ID="FIMPORT" X="263" Y="86" DESCRIPTION="File Import" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="FIMPORT">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMSAMP.Fimport.SOURCE" ImportType="Local" GuessRows="500" Delimiter="," NameRow="Y" SkipRows="0" MaxRows="1000000" MaxCols="10000" FileType="xlsx" Role="TRAIN" ForceRun="N" Summarize="N" AdvancedAdvisor="N" RunAction="Train" Component="FileImport" IFileName="C:\Users\UTM\Downloads\Dataset Train.xlsx" AccessTable="NoTableName" UserID="NoUserID" Password="NoPassword">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="Custid" AttributeName="ROLE" AttributeValue="ID"/>
+<DELTA Variable="Custid" AttributeName="LEVEL" AttributeValue="NOMINAL"/>
+<DELTA Variable="Freq" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="IceCreamMachine" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="IceCreamMachine" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="Kidhome" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="LemonCookies" AttributeName="ROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="LemonCookies" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="Teenhome" AttributeName="LEVEL" AttributeValue="BINARY"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<VARIABLESETDELTA Type="EXTERNAL" Extension="txt">
+<Data><![CDATA[
+if NAME=&quot;Custid&quot; then do;
+ROLE=&quot;ID&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;Freq&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;IceCreamMachine&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;Kidhome&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;LemonCookies&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+if NAME=&quot;Teenhome&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+DROP=&quot;N&quot;;
+end;
+]]>
+</Data>
+</VARIABLESETDELTA>
+<DELTACODE Type="EXTERNAL" Extension="txt">
+<Data><![CDATA[
+if NAME=&quot;Custid&quot; then do;
+ROLE=&quot;ID&quot;;
+LEVEL=&quot;NOMINAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;Freq&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;INTERVAL&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;IceCreamMachine&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;Kidhome&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;LemonCookies&quot; then do;
+ROLE=&quot;REJECTED&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+if NAME=&quot;Teenhome&quot; then do;
+ROLE=&quot;INPUT&quot;;
+LEVEL=&quot;BINARY&quot;;
+ORDER=&quot;&quot;;
+end;
+drop DROP;
+]]>
+</Data>
+</DELTACODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.FILTERTOOL.CLASS" COMPONENT="Filter" ID="Filter" X="702" Y="89" DESCRIPTION="Filter" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Filter">
+<PROPERTIES KeepMissingClass="Y" KeepMissingInterval="Y" NormalizeClassValue="Y" ExportTable="FILTERED" TabletoFilter="TRAIN" IntervalFilterMethod="MANUAL" ClassFilterMethod="NONE" MinFreq="1" MinPercent="0.01" MaxValues="25" MADSCutoff="9" SpacingsCutoff="9" StddevCutoff="3" PercentsCutoff="0.5" PublishScoreCode="Y" CreateDistributionData="Y" UpdateClassLevel="N" ForceRun="N" RunAction="Train" Component="Filter">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="Age" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Age" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Age" AttributeName="INTERVALMAX" AttributeValue="87.879877"/>
+<DELTA Variable="Canned" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Canned" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Canned" AttributeName="INTERVALMAX" AttributeValue="100"/>
+<DELTA Variable="Dayswus" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Dayswus" AttributeName="INTERVALMIN" AttributeValue="429.41619"/>
+<DELTA Variable="Dayswus" AttributeName="INTERVALMAX" AttributeValue="1270.5"/>
+<DELTA Variable="Drinks" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Drinks" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Drinks" AttributeName="INTERVALMAX" AttributeValue="100"/>
+<DELTA Variable="Freq" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Freq" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Freq" AttributeName="INTERVALMAX" AttributeValue="60"/>
+<DELTA Variable="Fresh" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Fresh" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Fresh" AttributeName="INTERVALMAX" AttributeValue="100"/>
+<DELTA Variable="Frozen" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Frozen" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Frozen" AttributeName="INTERVALMAX" AttributeValue="100"/>
+<DELTA Variable="IceCreamMachine" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="IceCreamMachine" AttributeName="INTERVALMIN" AttributeValue="-0.5"/>
+<DELTA Variable="IceCreamMachine" AttributeName="INTERVALMAX" AttributeValue="1.5"/>
+<DELTA Variable="Income" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Income" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Income" AttributeName="INTERVALMAX" AttributeValue="1994007.3021"/>
+<DELTA Variable="LemonCookies" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="LemonCookies" AttributeName="INTERVALMIN" AttributeValue="-0.5"/>
+<DELTA Variable="LemonCookies" AttributeName="INTERVALMAX" AttributeValue="1.5"/>
+<DELTA Variable="Monetary" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Monetary" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Monetary" AttributeName="INTERVALMAX" AttributeValue="25746.636366"/>
+<DELTA Variable="Pastry" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Pastry" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Pastry" AttributeName="INTERVALMAX" AttributeValue="100"/>
+<DELTA Variable="Perdeal" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Perdeal" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Perdeal" AttributeName="INTERVALMAX" AttributeValue="100"/>
+<DELTA Variable="Recency" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Recency" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Recency" AttributeName="INTERVALMAX" AttributeValue="600"/>
+<DELTA Variable="WebPurchase" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="WebPurchase" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="WebPurchase" AttributeName="INTERVALMAX" AttributeValue="84.78125"/>
+<DELTA Variable="WebVisit" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="WebVisit" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="WebVisit" AttributeName="INTERVALMAX" AttributeValue="10.5"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<CLASSFILTER Type="DATA">
+<Data/>
+<Metadata>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VALUE" LABEL="Value" LENGTH="12" FORMAT="" TYPE="C"/>
+<Variable NAME="COUNT" LABEL="Frequency Count" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="PERCENT" LABEL="Percent" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="Filter" LABEL="" LENGTH="1" FORMAT="" TYPE="C"/>
+</Metadata>
+</CLASSFILTER>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.FILTERTOOL.CLASS" COMPONENT="Filter" ID="Filter2" X="706" Y="162" DESCRIPTION="Filter (excluded)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Filter">
+<PROPERTIES KeepMissingClass="Y" KeepMissingInterval="Y" NormalizeClassValue="Y" ExportTable="EXCLUDED" TabletoFilter="TRAIN" IntervalFilterMethod="MANUAL" ClassFilterMethod="NONE" MinFreq="1" MinPercent="0.01" MaxValues="25" MADSCutoff="9" SpacingsCutoff="9" StddevCutoff="3" PercentsCutoff="0.5" PublishScoreCode="Y" CreateDistributionData="Y" UpdateClassLevel="N" ForceRun="N" RunAction="Train" Component="Filter">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="Age" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Age" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Age" AttributeName="INTERVALMAX" AttributeValue="87.879877"/>
+<DELTA Variable="Canned" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Canned" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Canned" AttributeName="INTERVALMAX" AttributeValue="39.487216"/>
+<DELTA Variable="Dayswus" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Dayswus" AttributeName="INTERVALMIN" AttributeValue="429.41619"/>
+<DELTA Variable="Dayswus" AttributeName="INTERVALMAX" AttributeValue="1270.5"/>
+<DELTA Variable="Drinks" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Drinks" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Drinks" AttributeName="INTERVALMAX" AttributeValue="75.30303"/>
+<DELTA Variable="Freq" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Freq" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Freq" AttributeName="INTERVALMAX" AttributeValue="60"/>
+<DELTA Variable="Fresh" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Fresh" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Fresh" AttributeName="INTERVALMAX" AttributeValue="101.03125"/>
+<DELTA Variable="Frozen" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Frozen" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Frozen" AttributeName="INTERVALMAX" AttributeValue="45.297053"/>
+<DELTA Variable="IceCreamMachine" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="IceCreamMachine" AttributeName="INTERVALMIN" AttributeValue="-0.5"/>
+<DELTA Variable="IceCreamMachine" AttributeName="INTERVALMAX" AttributeValue="1.5"/>
+<DELTA Variable="Income" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Income" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Income" AttributeName="INTERVALMAX" AttributeValue="1994007.3021"/>
+<DELTA Variable="LemonCookies" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="LemonCookies" AttributeName="INTERVALMIN" AttributeValue="-0.5"/>
+<DELTA Variable="LemonCookies" AttributeName="INTERVALMAX" AttributeValue="1.5"/>
+<DELTA Variable="Monetary" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Monetary" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Monetary" AttributeName="INTERVALMAX" AttributeValue="25746.636366"/>
+<DELTA Variable="Pastry" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Pastry" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Pastry" AttributeName="INTERVALMAX" AttributeValue="46.685843"/>
+<DELTA Variable="Perdeal" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Perdeal" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Perdeal" AttributeName="INTERVALMAX" AttributeValue="100"/>
+<DELTA Variable="Recency" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="Recency" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="Recency" AttributeName="INTERVALMAX" AttributeValue="600"/>
+<DELTA Variable="WebPurchase" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="WebPurchase" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="WebPurchase" AttributeName="INTERVALMAX" AttributeValue="84.78125"/>
+<DELTA Variable="WebVisit" AttributeName="CALCMETHOD" AttributeValue="MANUAL"/>
+<DELTA Variable="WebVisit" AttributeName="INTERVALMIN" AttributeValue="0"/>
+<DELTA Variable="WebVisit" AttributeName="INTERVALMAX" AttributeValue="10.5"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<CLASSFILTER Type="DATA">
+<Data/>
+<Metadata>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VALUE" LABEL="Value" LENGTH="12" FORMAT="" TYPE="C"/>
+<Variable NAME="COUNT" LABEL="Frequency Count" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="PERCENT" LABEL="Percent" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="Filter" LABEL="" LENGTH="1" FORMAT="" TYPE="C"/>
+</Metadata>
+</CLASSFILTER>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="GraphExplore" ID="GrfExpl" X="515" Y="318" DESCRIPTION="Graph Explore" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="GrfExpl">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.GRAPHEXPLORE.SOURCE" EmSampleMethod="FIRSTN" EmSampleSize="DEFAULT" EmRandomSeed="12345" Target="Y" GroupByTarget="Y" ForceRun="N" RunAction="Train" Component="GraphExplore" DataSource="SAMPLE" DataNeeded="Y">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="IceCreamMachine" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+<DELTA Variable="LemonCookies" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.EMIMPUTE.CLASS" COMPONENT="Impute" ID="Impt" X="1045" Y="122" DESCRIPTION="Impute" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Impt">
+<PROPERTIES MethodInterval="TREE" MethodClass="TREE" MethodTargetInterval="NONE" MethodTargetClass="NONE" ABWTuning="9" AHUBERTuning="1.5" AWAVETuning="6.2831853072" SpacingProportion="90" DefaultChar="" DefaultNum="." RandomSeed="12345" Normalize="Y" ImputeNoMissing="N" MaxPctMissing="50" ValidateTestMissing="N" DistributionMissing="N" LeafSize="5" Maxbranch="2" Maxdepth="6" MinCatSize="5" Nrules="5" Nsurrs="2" Splitsize="." Indicator="NONE" IndicatorRole="REJECTED" ReplaceVariable="N" HideVariable="Y" IndicatorSource="IMPUTED" ForceRun="N" RunAction="Train" Component="Impute">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="REP_Educ" AttributeName="USE" AttributeValue="Y"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.EMMETADATA.CLASS" COMPONENT="Metadata" ID="Meta" X="513" Y="86" DESCRIPTION="Metadata" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="UTILITY" TOOLPREFIX="Meta">
+<PROPERTIES HideRejected="N" AdvancedAdvisor="N" CombineRule="NONE" ComputeStatistics="N" ForceRun="N" RunAction="Train" Component="Metadata">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="Age" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Canned" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Custid" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Dayswus" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Drinks" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Educ" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Freq" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Fresh" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Frozen" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IceCreamMachine" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Income" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Kidhome" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="LemonCookies" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Monetary" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="NPS" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="NPS" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="NPS" AttributeName="HIDE" AttributeValue="Y"/>
+<DELTA Variable="Pastry" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Perdeal" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Recency" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Teenhome" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="WebPurchase" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="WebVisit" AttributeName="HIDDEN" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<IMPORTSET Type="DATA">
+<Data>
+<Obs USE="Y" PORT="DATA" NODELABEL="FIMPORT" NODEPORT="TRAIN" LIBNAME="" DATASET="FIMPORT_train" ROLE="TRAIN" MODTIME="2016799166.8" COLUMNMETA="FIMPORT_CMeta_TRAIN" COLUMNMETAMODTIME="2016799167" EMINFO="" EMINFOMODTIME="." NOBS="-1" DATASOURCE=""/>
+<Obs USE="Y" PORT="VALIDATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TEST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCORE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TRANSACTION" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="DOCUMENT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSMEAN" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSSTAT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="ESTIMATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RANK" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="REPORTFIT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RULES" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCOREDIST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TERMS" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TREE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="VARMAP" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+</Data>
+<Metadata>
+<Variable NAME="USE" LABEL="" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="PORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODELABEL" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODEPORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LIBNAME" LABEL="" LENGTH="8" FORMAT="" TYPE="C"/>
+<Variable NAME="DATASET" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ROLE" LABEL="" LENGTH="20" FORMAT="" TYPE="C"/>
+<Variable NAME="MODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="COLUMNMETA" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COLUMNMETAMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="EMINFO" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EMINFOMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="NOBS" LABEL="" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DATASOURCE" LABEL="" LENGTH="29" FORMAT="" TYPE="C"/>
+</Metadata>
+</IMPORTSET>
+<VARIABLEPROPERTIES_DATA Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+*------------------------------------------------------------*;
+* Variable Attributes for DATA;
+*------------------------------------------------------------*;
+if upcase(NAME) = &quot;NPS&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;NPS&quot; then HIDE=&quot;Y&quot;;
+]]>
+</Data>
+</VARIABLEPROPERTIES_DATA>
+<METACODE_DATA Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+*------------------------------------------------------------*;
+* Metadata Changes;
+*------------------------------------------------------------*;
+if upcase(NAME) = &quot;NPS&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;NPS&quot; then delete;
+]]>
+</Data>
+</METACODE_DATA>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.EMMETADATA.CLASS" COMPONENT="Metadata" ID="Meta2" X="1217" Y="122" DESCRIPTION="Metadata (2)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="UTILITY" TOOLPREFIX="Meta">
+<PROPERTIES HideRejected="N" AdvancedAdvisor="N" CombineRule="NONE" ComputeStatistics="N" ForceRun="N" RunAction="Train" Component="Metadata">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="Age" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Custid" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Educ" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Canned" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Dayswus" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Drinks" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Freq" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Fresh" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Frozen" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Kidhome" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Pastry" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Perdeal" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Age" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Educ" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Income" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Monetary" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Recency" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Teenhome" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_WebPurchase" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_WebVisit" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IceCreamMachine" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Income" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="LemonCookies" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Monetary" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="_WARN_" AttributeName="HIDDEN" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<IMPORTSET Type="DATA">
+<Data>
+<Obs USE="Y" PORT="DATA" NODELABEL="Impt" NODEPORT="TRAIN" LIBNAME="" DATASET="Impt_TRAIN" ROLE="TRAIN" MODTIME="2016972990.4" COLUMNMETA="Impt_CMeta_TRAIN" COLUMNMETAMODTIME="2016972991.1" EMINFO="" EMINFOMODTIME="." NOBS="-1" DATASOURCE=""/>
+<Obs USE="Y" PORT="VALIDATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TEST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCORE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TRANSACTION" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="DOCUMENT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSMEAN" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSSTAT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="ESTIMATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RANK" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="REPORTFIT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RULES" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCOREDIST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TERMS" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TREE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="VARMAP" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+</Data>
+<Metadata>
+<Variable NAME="USE" LABEL="" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="PORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODELABEL" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODEPORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LIBNAME" LABEL="" LENGTH="8" FORMAT="" TYPE="C"/>
+<Variable NAME="DATASET" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ROLE" LABEL="" LENGTH="20" FORMAT="" TYPE="C"/>
+<Variable NAME="MODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="COLUMNMETA" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COLUMNMETAMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="EMINFO" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EMINFOMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="NOBS" LABEL="" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DATASOURCE" LABEL="" LENGTH="29" FORMAT="" TYPE="C"/>
+</Metadata>
+</IMPORTSET>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.EMMETADATA.CLASS" COMPONENT="Metadata" ID="Meta3" X="1713" Y="301" DESCRIPTION="Metadata (3)" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="UTILITY" TOOLPREFIX="Meta">
+<PROPERTIES HideRejected="N" AdvancedAdvisor="N" CombineRule="NONE" ComputeStatistics="N" ForceRun="N" RunAction="Train" Component="Metadata">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="AVGPURCHCOST" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Age" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Custid" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Distance" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="EduInt" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Educ" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Canned" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Dayswus" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Drinks" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Freq" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Fresh" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Frozen" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Kidhome" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Pastry" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Perdeal" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Age" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Income" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_REP_Monetary" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Recency" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_Teenhome" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_WebPurchase" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IMP_WebVisit" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="IceCreamMachine" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Income" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="LemonCookies" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="MonCanned" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="MonDrinks" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="MonFresh" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="MonFrozen" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="MonPastry" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="Monetary" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="PARTMONETARY" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="_SEGMENT_" AttributeName="NEWROLE" AttributeValue="REJECTED"/>
+<DELTA Variable="_SEGMENT_" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="_SEGMENT_" AttributeName="LABEL" AttributeValue="Segment Id"/>
+<DELTA Variable="_SEGMENT_LABEL_" AttributeName="NEWROLE" AttributeValue="SEGMENT"/>
+<DELTA Variable="_SEGMENT_LABEL_" AttributeName="HIDDEN" AttributeValue="N"/>
+<DELTA Variable="_WARN_" AttributeName="HIDDEN" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<IMPORTSET Type="DATA">
+<Data>
+<Obs USE="Y" PORT="DATA" NODELABEL="Clus3" NODEPORT="TRAIN" LIBNAME="" DATASET="Clus3_TRAIN" ROLE="TRAIN" MODTIME="2016977288.7" COLUMNMETA="Clus3_CMeta_TRAIN" COLUMNMETAMODTIME="2016977289.7" EMINFO="" EMINFOMODTIME="." NOBS="-1" DATASOURCE=""/>
+<Obs USE="Y" PORT="VALIDATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TEST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCORE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TRANSACTION" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="DOCUMENT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSMEAN" NODELABEL="Clus3" NODEPORT="CLUSMEAN" LIBNAME="" DATASET="Clus3_OUTMEAN" ROLE="CLUSMEAN" MODTIME="2016975868.2" COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="CLUSSTAT" NODELABEL="Clus3" NODEPORT="CLUSSTAT" LIBNAME="" DATASET="Clus3_OUTSTAT" ROLE="CLUSSTAT" MODTIME="2016975868.2" COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="ESTIMATE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RANK" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="REPORTFIT" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="RULES" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="SCOREDIST" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TERMS" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="TREE" NODELABEL="" NODEPORT="" LIBNAME="" DATASET="" ROLE="" MODTIME="." COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+<Obs USE="Y" PORT="VARMAP" NODELABEL="Clus3" NODEPORT="VARMAP" LIBNAME="" DATASET="Clus3_OUTVAR" ROLE="VARMAP" MODTIME="2016975868.1" COLUMNMETA="" COLUMNMETAMODTIME="." EMINFO="" EMINFOMODTIME="." NOBS="." DATASOURCE=""/>
+</Data>
+<Metadata>
+<Variable NAME="USE" LABEL="" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="PORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODELABEL" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="NODEPORT" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LIBNAME" LABEL="" LENGTH="8" FORMAT="" TYPE="C"/>
+<Variable NAME="DATASET" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ROLE" LABEL="" LENGTH="20" FORMAT="" TYPE="C"/>
+<Variable NAME="MODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="COLUMNMETA" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COLUMNMETAMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="EMINFO" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EMINFOMODTIME" LABEL="" LENGTH="8" FORMAT="DATETIME20." TYPE="N"/>
+<Variable NAME="NOBS" LABEL="" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DATASOURCE" LABEL="" LENGTH="29" FORMAT="" TYPE="C"/>
+</Metadata>
+</IMPORTSET>
+<VARIABLEPROPERTIES_DATA Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+*------------------------------------------------------------*;
+* Variable Attributes for DATA;
+*------------------------------------------------------------*;
+if upcase(NAME) = &quot;_SEGMENT_&quot; then NEWROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;_SEGMENT_LABEL_&quot; then NEWROLE=&quot;SEGMENT&quot;;
+]]>
+</Data>
+</VARIABLEPROPERTIES_DATA>
+<METACODE_DATA Type="EXTERNAL" Extension="sas">
+<Data><![CDATA[
+*------------------------------------------------------------*;
+* Metadata Changes;
+*------------------------------------------------------------*;
+if upcase(NAME) = &quot;_SEGMENT_&quot; then ROLE=&quot;REJECTED&quot;;
+if upcase(NAME) = &quot;_SEGMENT_LABEL_&quot; then ROLE=&quot;SEGMENT&quot;;
+]]>
+</Data>
+</METACODE_DATA>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.MULTIPLOT.CLASS" COMPONENT="MultiPlot" ID="Plot" X="515" Y="242" DESCRIPTION="MultiPlot" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Plot">
+<PROPERTIES OutputCatalog="WORK.GOUT" TrainCode="" NumericThreshold="20" Orientation="VERTICAL" Statistic="FREQ" ShowValues="Y" IncludeMissing="Y" IntervalTargetChart="MEAN" ChartType="CHART" IntTargetRegression="LINEAR" DisplayRegEquation="N" ConfidenceInterval="Y" ImageFormat="GIF" ForceRun="N" RunAction="Train" Component="MultiPlot">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="Freq" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="IceCreamMachine" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+<DELTA Variable="LemonCookies" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Profile" ID="Prof" X="1859" Y="308" DESCRIPTION="Segment Profile" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Prof">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.PROFILE.SOURCE" DataNeeded="Y" MinWorth="0.01" MaxNumInput="10" MaxNumReport="10" NumHistBars="8" ProfileAll="N" PrintWorth="Y" UseReportVars="Y" TargetRole="NONE" OtherPercentCutOff="95" MaxDepth="1" ForceRun="N" RunAction="Train" Component="Profile">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="IMP_Canned" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Drinks" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Fresh" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Frozen" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Pastry" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="IMP_Perdeal" AttributeName="USE" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="Replace" ID="Repl" X="880" Y="93" DESCRIPTION="Replacement" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Repl">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMMDFY.REPLACE.SOURCE" HideVariable="N" UnknownLevel="NONE" ReplaceMethod="COMPUTED" CalcMethod="MANUAL" MADSCutoff="9.0" SpacingsCutoff="9.0" StddevCutoff="3.0" PercentsCutoff="0.5" CountReport="Y" ForceRun="N" RunAction="Train" Component="Replace" IntervalMethod="NONE" DataNeeded="Y">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="Age" AttributeName="INTERVALMAX" AttributeValue="90"/>
+<DELTA Variable="Income" AttributeName="INTERVALMAX" AttributeValue="200000"/>
+<DELTA Variable="Monetary" AttributeName="INTERVALMAX" AttributeValue="20000"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<NEWVALUES Type="DATA">
+<Data>
+<Obs NAME="Educ" LEVEL="MSc" TYPE="C" REPLACE_VALUE="17"/>
+<Obs NAME="Educ" LEVEL="BSc" TYPE="C" REPLACE_VALUE="15"/>
+<Obs NAME="Educ" LEVEL="High School" TYPE="C" REPLACE_VALUE="12"/>
+<Obs NAME="Educ" LEVEL="PhD" TYPE="C" REPLACE_VALUE="20"/>
+<Obs NAME="Educ" LEVEL="" TYPE="C" REPLACE_VALUE="_MISSING_"/>
+<Obs NAME="Educ" LEVEL="_UNKNOWN_" TYPE="C" REPLACE_VALUE="_DEFAULT_"/>
+<Obs NAME="Kidhome" LEVEL="_UNKNOWN_" TYPE="N" REPLACE_VALUE="_DEFAULT_"/>
+<Obs NAME="Teenhome" LEVEL="_UNKNOWN_" TYPE="N" REPLACE_VALUE="_DEFAULT_"/>
+</Data>
+<Metadata>
+<Variable NAME="Name" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Formatted Value" LENGTH="12" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="REPLACE_VALUE" LABEL="Replacement Value" LENGTH="200" FORMAT="" TYPE="C"/>
+</Metadata>
+</NEWVALUES>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMEXPL.STATEXPLORE.CLASS" COMPONENT="StatExplore" ID="Stat" X="516" Y="160" DESCRIPTION="StatExplore" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="Stat">
+<PROPERTIES BySegment="N" Correlation="Y" Spearman="N" Pearson="Y" ChiSquare="Y" ChiSquareInterval="N" ChiSquareIntervalNBins="5" MaximumVars="1000" HideVariable="Y" DropRejected="Y" UseValidate="N" UseTest="N" UseScore="N" NObs="100000" IntervalDistribution="Y" ClassDistribution="Y" LevelSummary="Y" ForceRun="N" RunAction="Train" Component="StatExplore">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="IceCreamMachine" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+<DELTA Variable="LemonCookies" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<CROSSTAB Type="DATA">
+<Data/>
+<Metadata/>
+</CROSSTAB>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.EMTRANS.CLASS" COMPONENT="Transform" ID="Trans" X="1375" Y="133" DESCRIPTION="Transform Variables" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Trans">
+<PROPERTIES DefaultMethod="NONE" DefaultTargetMethod="NONE" DefaultClassMethod="NONE" DefaultClassTargetMethod="NONE" Offset="1" MinOffset="Y" HideVariable="Y" RejectVariable="Y" GroupCutoff="0.1" GroupMissing="N" EmRandomSeed="12345" EmSampleSize="DEFAULT" EmSampleMethod="FIRSTN" MissingValue="USEINSEARCH" SummaryVariables="TRANSFORMED" SummaryStatistics="Y" UseMetaTransform="Y" MissingAsLevel="N" NumberofBins="VARIABLES" MaxOptimalBins="4" ForceRun="N" RunAction="Train" Component="Transform">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<INTERACTION Type="DATA">
+<Data/>
+<Metadata/>
+</INTERACTION>
+<FORMULA Type="DATA">
+<Data>
+<Obs NAME="AVGPURCHCOST" FORMULA="IMP_REP_Monetary / IMP_Freq" TYPE="N" LENGTH="8" FORMAT="" ROLE="INPUT" LEVEL="INTERVAL" REPORT="N" LABEL="" NLEVEL="." NMISS="." MIN="." MAX="." MEAN="." STD="." SKEWNESS="." KURTOSIS="."/>
+<Obs NAME="EduInt" FORMULA="IMP_REP_Educ * 1" TYPE="N" LENGTH="8" FORMAT="" ROLE="INPUT" LEVEL="INTERVAL" REPORT="N" LABEL="" NLEVEL="." NMISS="." MIN="." MAX="." MEAN="." STD="." SKEWNESS="." KURTOSIS="."/>
+<Obs NAME="MonCanned" FORMULA="IMP_Canned * IMP_REP_Monetary" TYPE="N" LENGTH="8" FORMAT="" ROLE="INPUT" LEVEL="INTERVAL" REPORT="N" LABEL="" NLEVEL="." NMISS="." MIN="." MAX="." MEAN="." STD="." SKEWNESS="." KURTOSIS="."/>
+<Obs NAME="MonDrinks" FORMULA="IMP_Drinks * IMP_REP_Monetary" TYPE="N" LENGTH="8" FORMAT="" ROLE="INPUT" LEVEL="INTERVAL" REPORT="N" LABEL="" NLEVEL="." NMISS="." MIN="." MAX="." MEAN="." STD="." SKEWNESS="." KURTOSIS="."/>
+<Obs NAME="MonFresh" FORMULA="IMP_Fresh * IMP_REP_Monetary" TYPE="N" LENGTH="8" FORMAT="" ROLE="INPUT" LEVEL="INTERVAL" REPORT="N" LABEL="" NLEVEL="." NMISS="." MIN="." MAX="." MEAN="." STD="." SKEWNESS="." KURTOSIS="."/>
+<Obs NAME="MonPastry" FORMULA="IMP_Pastry * IMP_REP_Monetary" TYPE="N" LENGTH="8" FORMAT="" ROLE="INPUT" LEVEL="INTERVAL" REPORT="N" LABEL="" NLEVEL="." NMISS="." MIN="." MAX="." MEAN="." STD="." SKEWNESS="." KURTOSIS="."/>
+<Obs NAME="MonFrozen" FORMULA="IMP_Frozen * IMP_REP_Monetary" TYPE="N" LENGTH="8" FORMAT="" ROLE="INPUT" LEVEL="INTERVAL" REPORT="N" LABEL="" NLEVEL="." NMISS="." MIN="." MAX="." MEAN="." STD="." SKEWNESS="." KURTOSIS="."/>
+<Obs NAME="PARTMONETARY" FORMULA="(IMP_REP_Monetary / IMP_REP_Income) * 100" TYPE="N" LENGTH="8" FORMAT="" ROLE="INPUT" LEVEL="INTERVAL" REPORT="N" LABEL="" NLEVEL="." NMISS="." MIN="." MAX="." MEAN="." STD="." SKEWNESS="." KURTOSIS="."/>
+</Data>
+<Metadata>
+<Variable NAME="Name" LABEL="Variable Name" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="Formula" LABEL="Formula" LENGTH="300" FORMAT="" TYPE="C"/>
+<Variable NAME="Type" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="Length" LABEL="Length" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="Format" LABEL="Format" LENGTH="20" FORMAT="" TYPE="C"/>
+<Variable NAME="Role" LABEL="Role" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="Level" LABEL="Measurement Level" LENGTH="10" FORMAT="" TYPE="C"/>
+<Variable NAME="Report" LABEL="Report" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="Label" LABEL="Label" LENGTH="200" FORMAT="" TYPE="C"/>
+<Variable NAME="nlevel" LABEL="Number of Levels" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="nmiss" LABEL="Missing" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="min" LABEL="Minimum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="max" LABEL="Maximum" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="mean" LABEL="Mean" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="std" LABEL="Standard Deviation" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="skewness" LABEL="Skewness" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="kurtosis" LABEL="Kurtosis" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</FORMULA>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="VariableClustering" ID="VarClus" X="515" Y="386" DESCRIPTION="Variable Clustering" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="EXPLORE" TOOLPREFIX="VarClus">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMEXPL.VARIABLECLUSTERING.SOURCE" HideVariable="Y" MaxClus="." ClusSource="CORR" ClusHierachy="Y" IncludeClassVar="N" TwoStageClus="AUTO" SuppressSampWarn="N" ExportedComp="CLUSTERCOMP" MaxEigen="." Proportion="0" PrintOption="SHORT" ForceRun="N" RunAction="Train" Component="VariableClustering" DataNeeded="Y">
+<VariableProperties/>
+<EmVariableAttributes>
+<DELTA Variable="IceCreamMachine" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+<DELTA Variable="LemonCookies" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+</NODES>
+<CONNECTIONS>
+<CONNECTION FROM="FIMPORT" TO="Meta"/>
+<CONNECTION FROM="FIMPORT" TO="VarClus"/>
+<CONNECTION FROM="FIMPORT" TO="GrfExpl"/>
+<CONNECTION FROM="FIMPORT" TO="Plot"/>
+<CONNECTION FROM="FIMPORT" TO="Stat"/>
+<CONNECTION FROM="Stat" TO="CNTRL"/>
+<CONNECTION FROM="Plot" TO="CNTRL"/>
+<CONNECTION FROM="GrfExpl" TO="CNTRL"/>
+<CONNECTION FROM="VarClus" TO="CNTRL"/>
+<CONNECTION FROM="Meta" TO="Filter2"/>
+<CONNECTION FROM="Meta" TO="Filter"/>
+<CONNECTION FROM="Filter" TO="Repl"/>
+<CONNECTION FROM="Repl" TO="Impt"/>
+<CONNECTION FROM="Impt" TO="Meta2"/>
+<CONNECTION FROM="Meta2" TO="Trans"/>
+<CONNECTION FROM="Trans" TO="Clus"/>
+<CONNECTION FROM="Trans" TO="Clus2"/>
+<CONNECTION FROM="Trans" TO="Clus3"/>
+<CONNECTION FROM="Trans" TO="Clus4"/>
+<CONNECTION FROM="Trans" TO="Clus5"/>
+<CONNECTION FROM="Trans" TO="Clus6"/>
+<CONNECTION FROM="Clus3" TO="Meta3"/>
+<CONNECTION FROM="Meta3" TO="Prof"/>
+</CONNECTIONS>
+<NOTES>
+<DATA><![CDATA[
+
+]]>
+</DATA>
+</NOTES>
+</Workspace>
+</_ROOT_>
